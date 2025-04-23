@@ -26,7 +26,26 @@ public class Main {
 
             int choice = scanner.nextInt();
             scanner.nextLine(); // consume newline
+            switch (choice) {
+                case 1:
+                    System.out.println("👋 Hello again, " + name + "!");
+                    break;
+                case 2:
+                    System.out.println("🧠 Fun Fact: Honey never spoils. Archaeologists have found 3,000-year-old jars of honey that are still edible!");
+                    break;
+                case 3:
+                    System.out.println("👋 Goodbye, " + name + "! Have a great day!");
+                    running = false;
+                    break;
+                case 4:
+                    System.out.println("👋 Goodnight , " + name + "! Have a great day!");
+                    running = false;
+                    break;
+                default:
+                    System.out.println("❗ Invalid choice. Please try again.");
         }
+        }
+        
 
         scanner.close();
     }
