@@ -1,4 +1,4 @@
-conflict 1
+conflict where no way it will occure
 
 
-new feature 1 is add ****
+old feature 3 is add ----
