@@ -37,6 +37,10 @@ public class Main {
                     System.out.println("👋 Goodbye, " + name + "! Have a great day!");
                     running = false;
                     break;
+                case 4:
+                    System.out.println("👋 Goodnight , " + name + "! Have a great day!");
+                    running = false;
+                    break;
                 default:
                     System.out.println("❗ Invalid choice. Please try again.");
         }
