@@ -1,4 +1,4 @@
 conflict 1
 
 
-new feature 1 is add ****
+new feature 1 is removed ****
